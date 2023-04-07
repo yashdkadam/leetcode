@@ -24,7 +24,6 @@ function App() {
       setCompanies(response["data"]);
 
       var company = localStorage.getItem("company");
-      setCurrCompany(company)
       const res = await axios.get(base + "search/company/" + company);
       setQuestions(res["data"]);
       setLoading(false);
