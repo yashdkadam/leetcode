@@ -10,7 +10,6 @@ function setCompany(e, data){
 
 function App() {
   const [loading, setLoading] = useState(false);
-  const [currCompany, setCurrCompany] = useState("");
   const [companies, setCompanies] = useState([]);
   const [questions, setQuestions] = useState([]);
 
@@ -53,6 +52,7 @@ function App() {
                     <a
                       href={`https://leetcode.com/problems/${item.titleSlug}`}
                       target="_blank"
+                      rel="noopener noreferrer"
                     >
                       <li className="list-group-item d-flex justify-content-between align-items-center">
                         <span>
