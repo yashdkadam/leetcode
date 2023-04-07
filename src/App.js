@@ -46,7 +46,6 @@ function App() {
             ) : (
               questions.map(
                 (item) => (
-                  console.log(item["isPaidOnly"]),
                   (
                     <a
                       href={`https://leetcode.com/problems/${item.titleSlug}`}
