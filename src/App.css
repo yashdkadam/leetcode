@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+a{
+  text-decoration: none;
+}
+
+li{
+  cursor: pointer;
+}
+.badge-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+.Easy {
+    color: #fff;
+    background-color: #00B8A3;
+}
+.Medium {
+    color: #fff;
+    background-color: #FFC01E;
+}
+.Hard {
+    color: #fff;
+    background-color: #ff375f;
+}
+
+body{
+  padding: 15px;
+}
