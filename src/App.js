@@ -14,6 +14,7 @@ function App() {
   const [questions, setQuestions] = useState([]);
 
   useEffect(() => {
+    document.title = "Leetcode";
     const loadPost = async () => {
       setLoading(true);
       if (localStorage.getItem("company") == null) {
