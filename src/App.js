@@ -36,6 +36,9 @@ function App() {
       if (localStorage.getItem("company") === null) {
         localStorage.setItem("company", "Amazon");
       }
+      if (localStorage.getItem("search") === null) {
+        localStorage.setItem("search", "");
+      }
       var base = "https://curious-parka-yak.cyclic.app/api/questions/";
       var response = await axios.get(base + "companies");
       setCompanies(response["data"]);
